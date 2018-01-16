@@ -1,0 +1,55 @@
+#bgvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    /*-webkit-filter:grayscale(100%)*/
+}
+#searchDate{
+    position: absolute;
+    width: 100%;
+    top:150px;
+}
+#pjlist>li{
+    height: 42px;
+    width: 100%;
+    text-align:left;
+    display: inline-block;
+    margin: 0;
+    font:16px/24px "Microsoft YaHei", SimSun,Tahoma,Verdana,Arial,sanserif;
+    color: #fff;
+    float: left;
+}
+#pjlist>li>b{
+    height: 42px;
+    color: #fff;
+    width: 80%;
+    text-decoration: none;
+    border-bottom: 1px dashed #46B8DA;
+    border-left: 4px solid transparent;
+    display: block;
+    text-align: center;
+    /* vertical-align: middle; */
+    padding-top: 8px;
+}
+#pjlist{
+	padding: 0;
+	margin: 0;
+}
+#area1{
+    transform-style: preserve-3d;
+    perspective:10000px;
+}
+#searchCol{
+	border-radius: 5px;
+	overflow: hidden;
+    box-shadow:0px 0px 40px 0 #0f0f0f;
+}
+
+#searchCol:hover{
+
+}

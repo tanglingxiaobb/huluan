@@ -1,0 +1,10 @@
+$(()=>{
+	$.ajax({
+		type:"get",
+		url:"../hearder/header.html",
+		success:function(data){
+			$("#navibar").html(data);
+			//$("#navbar-nav").hover(function)
+		}
+	})
+})
